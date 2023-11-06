@@ -15,5 +15,6 @@ body {
       transparent,
       rgb(var(--background-end-rgb))
     ) */
-  background: rgb(var(--background-start-rgb));
+  /* background: rgb(var(--background-start-rgb)); */
+  background-image: url("../public/diabetes.jpg");
 }

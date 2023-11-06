@@ -13,9 +13,7 @@ export default function RootLayout({
       <body>
         <main className="px-20">
           <Navbar />
-          <section className="py-10 grid grid-flow-col justify-start items-between justify-items-stretch w-full h-full">
-            {children}
-          </section>
+          <section className="py-10  w-full h-full">{children}</section>
         </main>
       </body>
     </html>
